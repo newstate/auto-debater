@@ -1,0 +1,3 @@
+[USERINFO]
+OPENAI_API_KEY = 'your_key'
+xi-api-key = 'your_elevenlabs_key'
