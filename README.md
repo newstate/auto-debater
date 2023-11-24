@@ -1,6 +1,6 @@
 # auto-debater
 
-This repo is aimed at simulating debates or conversations between politicians. It was made on the occasion of the Dutch elections in November 2023. The repo contains sample data that was made while simulating a debate between two Dutch politicians.
+This repo is aimed at simulating debates or conversations between politicians. It was made on the occasion of the Dutch elections in November 2023. The repo contains sample data that was made while simulating a debate between two Dutch politicians. See [edited video here.](https://youtu.be/w_I_AwFttXo?si=vtxEcWVEdtb49b-1)
 
 The [OpenAI assistants API](https://platform.openai.com/docs/api-reference/assistants) which is currently in beta is the foundation of this experiment. See also [the respective python cookbook](https://cookbook.openai.com/examples/assistants_api_overview_python) The idea is to equip assistants with a knowledge base by uploading documents for retrieval, in this case: the party programs of the parties that the assistants represent, thereby allowing them to promote and defend these in a debate.
 
