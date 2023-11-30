@@ -11,7 +11,7 @@ config_object = ConfigParser()
 config_object.read("config.ini")
 
 # Initialize the OpenAI client
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = config_object["USERINFO"]['OPENAI_API_KEY']
 client = openai.OpenAI()
 
 # Initialize the queues
